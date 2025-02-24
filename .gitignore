@@ -2,7 +2,6 @@
 .venv/
 .venv_backup/
 counter.py
-.streamlit/secrets.toml
 personal-chatgpt/.streamlit/secrets.toml
 secrets_backup.toml
 personal-chatgpt/__pycache__/

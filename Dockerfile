@@ -13,4 +13,4 @@ RUN pip3 install -r requirements.txt
 COPY . /app
 
 EXPOSE 8501
-ENTRYPOINT ["streamlit", "run", "personal-chatgpt/personal_chatgpt.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "personal-chatgpt/personal_chatgpt.py", "--server.port=8501", "--server.address=127.0.0.1"]
